@@ -5,9 +5,9 @@ const ig = require('./instagram');
 
   await ig.initialize();
 
-  await ig.login('jwandekoken', 'wndk#999_masstry');
+  await ig.login('username', 'password');
 
-  await ig.likeTagsProcess(['desenvolvedorweb', 'desenvolvimentoweb', 'javascript', 'nodejs', 'reactjs', 'angularjs', 'html', 'css', 'webdevelopment',  'coding', 'php', 'python', 'coding', 'php', 'sql', 'nosql', 'mysql', 'mongodb']);
+  await ig.likeTagsProcess(['javascript', 'nodejs', 'reactjs', 'angularjs', 'vuejs', 'reactnative', 'html', 'css', 'desenvolvedorweb', 'programador', 'desenvolvimentoweb', 'webdevelopment',  'mongodb', 'coding', 'php', 'pythonprogramming', 'coding', 'sql', 'nosql', 'mysql']);
 
 })();
 
